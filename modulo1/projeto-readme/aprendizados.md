@@ -1,0 +1,2 @@
+# Aprendizados da semana
+Essa semana aprendi como navegar em plataformas de comunicação, de vídeos, de repositórios remotos e muitos mais, como o **Slack**, o **Vimeo** e o **Github**. Além disso, aprendi o que é um terminal e alguns de seus comandos, aprendi como criar ramificações de arquivos para realizar alterações e enviá-los para repositórios remotos e aprendi, ainda de maneira superficial, a lógica de programação presente no universo de desenvolvimento de softwares.

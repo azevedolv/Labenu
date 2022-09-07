@@ -1,0 +1,144 @@
+#pond {
+    display: flex;
+  justify-content:flex-end
+  }
+
+  #pond {
+    display: flex;
+  justify-content: center
+  }
+
+  #pond {
+    display: flex;
+  justify-content: space-around
+  }
+
+  #pond {
+    display: flex;
+  justify-content: space-between
+  }
+
+  #pond {
+    display: flex;
+  align-items: flex-end
+  }
+  
+  #pond {
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  }
+
+  #pond {
+    display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+  }
+
+  #pond {
+    display: flex;
+  flex-direction:row-reverse;
+  }
+
+  #pond {
+    display: flex;
+  flex-direction: column
+  }
+
+  #pond {
+    display: flex;
+  justify-content:flex-end;/*Notice that when you set the direction to a reversed row or column, start and end are also reversed.*/
+  flex-direction:row-reverse
+  }
+
+  #pond {
+    display: flex;
+  flex-direction:column;/*Notice that when the flex direction is a column, *justify-content* changes to the vertical and align-items to the horizontal.*/
+  justify-content:flex-end;
+  }
+
+  #pond {
+    display: flex;
+  flex-direction:column-reverse;
+  justify-content: space-between /*space-between's position is more perfect than space-around*/
+  }
+
+  #pond {
+    display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  align-items: flex-end; /*align-items mantain the normal behavior*/
+  }
+
+  #pond {
+    display: flex;
+  }
+  .yellow {
+  order:3
+  }
+
+  #pond {
+    display: flex;
+  }
+  .red {
+  order:-1/*-1 was the first position*/
+  }
+
+  #pond {
+    display: flex;
+    align-items: flex-start;
+  }
+  .yellow {
+  align-self: flex-end
+  }
+
+  #pond {
+    display: flex;
+    align-items: flex-start;
+  }
+  .yellow {
+  order: 3; /*both of them went to final position with order:3*/
+  align-self:flex-end;
+  }
+
+  #pond {
+    display: flex;
+  flex-wrap: wrap;
+  }
+
+  #pond {
+    display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  }
+
+  #pond {
+    display: flex;
+  flex-flow: column wrap;/*combine flex-direction and flex-wrap*/
+  }
+
+  #pond {
+    display: flex;
+    flex-wrap: wrap;
+  align-content: flex-start/* align-content determines the spacing between lines, while align-items determines how the items as a whole are aligned within the container. When there is only one line, align-content has no effect.*/
+  }
+
+  #pond {
+    display: flex;
+    flex-wrap: wrap;
+  align-content: flex-end
+  }
+
+  #pond {
+    display: flex;
+    flex-wrap: wrap;
+  flex-direction:column-reverse;
+  align-content:center
+  }
+
+  #pond {
+    display: flex;
+  flex-flow: column-reverse wrap-reverse;/*inverte coluna e troca a posição da coluna com o wrap*/
+  align-content: space-between;/*afasta o wrap da coluna*/
+  justify-content: center;/*coloca o wrap no centro(coluna não tem espaço para ficar centralizada)*/
+  }

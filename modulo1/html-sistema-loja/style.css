@@ -1,0 +1,59 @@
+#vitae {
+color: yellow;
+}
+
+h1{
+    margin-left: 40%;
+    margin-bottom: 5px;
+}
+
+#subtitulo{
+    display: inline-block;
+    margin-left: 36%;
+    background-color: darkgoldenrod;
+    margin-top: 5px;
+}
+
+.links{
+    margin-left: 32%;
+    margin-right: 103px;
+    display: inline-block;
+}
+
+html, body {
+    min-height: 100%;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+}
+        
+footer {
+    position: relative;
+    bottom: 0;
+    color: black;
+    width: 100%;
+    height: 100px;    
+    text-align: center;
+    line-height: 100px;
+}
+
+#girassol {
+    margin-left: 45%;
+    margin-top: 70px;
+}
+
+.link-insta {
+    width: 20px;
+    height: 20px;
+    object-fit: fill;
+}
+
+#rede-social{
+    margin-left: 45%;
+}
+
+#img-insta{
+    margin-left: 50%;
+}

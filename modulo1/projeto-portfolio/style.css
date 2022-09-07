@@ -1,0 +1,89 @@
+/* Estilizações gerais */
+header {
+    background-color: aliceblue;
+    display: inline-block;
+    margin-left: 40%;
+}
+header div a:hover{
+    color: yellow;
+}
+body{
+    background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
+}
+h1{
+    text-align: center;
+}
+
+h2{
+    text-align: center;
+}
+
+
+/* Estilização HOME*/
+
+
+#foto-inicial{
+    height: 260px;
+    width: 200px;
+    margin-left: 41%;
+    display: inline-block;
+    border-style: groove;
+    border-width: 1px;
+    border-color: black;
+}
+
+#texto-descrição{
+    text-align: center;
+}
+
+#lista-habilidades{
+    margin-left: 40%;
+    text-align: center;
+    display: inline-block;
+}
+
+/* Estilização PROJETOS*/
+#tabela-projetos{
+    display: block;
+    margin:auto;
+}
+#tabela-projetos ol{
+    margin-left: 42%;
+}
+#tabela-projetos ol a:hover{
+color: yellow;
+} 
+
+/* Estilização EXPERIÊNCIAS*/
+#lista-experiencias{
+    margin-left: 40%;
+}
+#lista-experiencias ul{
+    margin-left: -20px;
+    margin-bottom: 15px;
+}
+
+/* Estilização CONTATO*/
+#formulario-contato{
+    margin-left: 40%;
+}
+
+span{
+    margin-left: 40%;
+}
+
+#instagram{
+    height: 100px;
+    width: 100px;
+}
+
+#twitter{
+    height: 100px;
+    width: 100px;
+}
+
+#vitae6{
+    height: 100px;
+    width: 100x;
+    object-fit: fill;
+}

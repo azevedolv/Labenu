@@ -1,0 +1,82 @@
+/*Gerais*/
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    grid-column: 1/-1;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(207, 4, 4);
+    padding: 5px 10px;
+}
+
+header img{
+    width: 100px;
+    height: 25px;
+    margin-top: 5px;
+}
+
+body{
+    display: grid;
+    min-height: 100vh;
+    grid-template-rows: 40px 1fr 40px;
+}
+footer{
+    grid-column: 1/-1;   
+    background-color: rgb(207, 4, 4);
+}
+
+footer p{
+    display: flex;
+    color: aliceblue;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+/*Principal*/
+#main-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    row-gap: 5px;
+    column-gap: 5px;
+    margin: 10px;
+    align-items: center;
+}
+
+.card-video{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 2px 4px 4px 2px darkgray;
+}
+
+.card-video:hover{
+    color: darkgoldenrod;
+}
+
+.video-card{
+    width: 100%;
+}
+
+/*Secundários*/
+.tela-video{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+}
+
+@media screen and (max-device-width : 480px) {/*display para celulares*/
+    #main-container{
+        grid-template-columns: 1fr;
+    }
+    .tela-video{
+        height: 100%;
+    }
+    .video{
+        width: 90%;
+    }
+} 

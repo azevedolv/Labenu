@@ -1,0 +1,52 @@
+POST  http://localhost:3003/user
+Content-Type: application/json
+
+{
+    "name":"Luiz Vinícius",
+    "email":"lv10@gmail.com",
+    "password":"lv123456"
+}
+
+###
+
+GET http://localhost:3003/users
+
+###
+
+POST  http://localhost:3003/products
+Content-Type: application/json
+
+{
+    "name":"mousePad gamming",
+    "price":150.10,
+    "image_url":"https://thermaltake.azureedge.net/pub/media/catalog/product/cache/6bf0ed99c663954fafc930039201ed07/l/2/l20mousepad01.jpg"
+}
+
+###
+
+GET  http://localhost:3003/products
+
+###
+
+POST http://localhost:3003/purchases
+Content-Type: application/json
+
+{
+    "userId":"1655211632280",
+    "productId":"1655214244426",
+    "quantity":2
+}
+
+###
+
+GET http://localhost:3003/users/1655211163177/purchases
+
+###
+GET  http://localhost:3003/products-order?order=desc
+
+###
+GET http://localhost:3003/products-search?search=mec
+
+###
+
+GET http://localhost:3003/user-with-purchases

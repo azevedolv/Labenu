@@ -1,0 +1,9 @@
+-- Active: 1658624429287@@35.226.146.116@3306@silveira-21814745-luiz-azevedo
+CREATE TABLE case1(
+id INT PRIMARY KEY AUTO_INCREMENT,
+first_name VARCHAR(255) NOT NULL,
+last_name VARCHAR(255) NOT NULL,
+participation float NOT NULL
+);
+
+SELECT * FROM case1;

@@ -1,0 +1,5 @@
+GET http://localhost:3003/endereco/21664340
+
+###
+
+PUT http://localhost:3003/user/21665340?numero=36&complemento=apt101
