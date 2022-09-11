@@ -1,2 +1,2 @@
 # Labenu
-Todos os projetos na Labenu
+Todos os módulos com projetos e aprendizagos do estudo na Labenu.
