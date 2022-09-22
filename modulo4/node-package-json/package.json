@@ -1,0 +1,14 @@
+{
+  "name": "aula-node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "exercicio1": "node ./Exercício 1/index.js",
+    "exercicio2": "node ./Exercício 2/index.js",
+    "exercicio3": "node ./Exercício 3/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Luiz Vinícius",
+  "license": "ISC"
+}

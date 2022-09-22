@@ -1,0 +1,25 @@
+POST http://localhost:3003/signup
+Content-Type: application/json
+
+{
+    "name": "Jazz",
+    "email": "jazz@gmail.com",
+    "password": "miau123",
+    "role": "NORMAL"
+}
+
+###
+
+POST http://localhost:3003/login
+Content-Type: application/json
+
+{
+    "email": "jazz@gmail.com",
+    "password": "miau123"
+}
+
+
+###
+
+GET http://localhost:3003/user/feed
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjM0ODBjMjU5LTljYzItNGE3Zi04MDNjLTlkMjg1ZTc4MDFiOCIsInJvbGUiOiJOT1JNQUwiLCJpYXQiOjE2NTY2MzczOTksImV4cCI6MTY1NjY0MDk5OX0.Zzpi5tjVhFDZk8y1somQcreldGPCWigGWEnYqxKTFRQ
